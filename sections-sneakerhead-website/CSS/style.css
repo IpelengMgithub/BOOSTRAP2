@@ -108,5 +108,38 @@ section{
 }
 
 
+.Anatomy-item{
+    overflow: hidden;
+    position: relative;
+}
+
+.Anatomy-item img, .Anatomy-item .Anatomy-overlay{
+    transition: all 0.5s ease;
+} 
+
+.Anatomy-overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 139, 139, 0.473);
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+    opacity: 0;
+}
+
+.Anatomy-overlay h3, .Anatomy-overlay h6{
+    color: white;
+}
+
+.Anatomy-item:hover .Anatomy-overlay{
+    opacity: 1;
+}
+
+.Anatomy-item:hover img{
+    transform: scale(1.1);
+}
 
 
