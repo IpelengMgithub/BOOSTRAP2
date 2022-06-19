@@ -14,6 +14,11 @@ h1,h2,h3,h4,h5,h6{
     color: darkblue;
 }
 
+.title-sm{
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
 a{
     font-weight: 700;
     transition: all 0.4s ease;
@@ -22,6 +27,7 @@ a{
 img{
     width: 100%;
 }
+
 
 small{
     font-size: 12px;
@@ -83,6 +89,24 @@ section{
     background-color: aqua;
     color: black;
 }
+
+.section-brand .horizontal-line{
+    width: 150px;
+    height: 4px;
+    background-color: rgba(0, 0, 0, 0.384);
+    margin: 16px auto 0 auto;
+}
+
+.section-brand {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.logos .nike{
+    width: 70px;
+    height: 70px;
+}
+
 
 
 
