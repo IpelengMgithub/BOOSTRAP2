@@ -149,4 +149,19 @@ section{
     font-size: 24px;
  }
 
+.the-team {
+    background-color: darkcyan;
+}
+ 
+.the-team.even {
+    background-color: teal;
+}
+
+.the-team .hline {
+    width: 70px;
+    height: 2px;
+    margin: 16px auto;
+    background-color: black;
+ }
+
 
