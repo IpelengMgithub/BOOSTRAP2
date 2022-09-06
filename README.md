@@ -17,5 +17,5 @@ BOOTSTRAP
 
 run code using live server extention
 
-![sneakers](sneakerhead.png)
+![sneakers](sneak.png)
 # SNEAKERHEAD
